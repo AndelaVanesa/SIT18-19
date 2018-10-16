@@ -1,0 +1,496 @@
+/* OD 817PX NA NIZE CRVENI HEADER!!!! */
+
+/* POZADINA */
+body {
+	background: linear-gradient(to bottom right, rgba(0,0,0,.3), rgba(0,0,0,.4)), url(images/background.jpg);
+	margin: 5px 0 5px 0;
+}
+/* wrapper cijele stranice */
+#wrapper {
+    /*background:green;*/
+    width: 100%;
+    margin: 5px auto 0 auto;
+}
+
+/* HEADER */
+/*crveni header*/
+#top {
+    background: rgba(0,0,0,.2);
+    width:100%;
+    height: 50px;
+}
+#logo {
+    float:left;
+    height: 75px;
+    width: auto;
+    margin: 10px 0 0 50px;
+    background: rgba(255,255,255,0.1);
+    border: solid rgba(255,255,255,0.5) 2px;
+    border-radius: 50%;
+}
+nav {
+    float:right;
+}
+
+/*crveni meni */
+#menu li  {
+    display: inline-block;
+}
+#menu li a {
+    color: white;
+    font-size:20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Orbitron';
+}
+#menu li a:hover {
+	color: #7FCCF7;
+}
+
+/*crni header */
+#top2 {
+    /*display: none;*/
+	/*opacity: 0;*/
+	visibility: hidden;
+    position:fixed;
+    top:0;
+    left: 0;
+    background:black;
+    width:100%;
+    height: 50px;
+    margin:0 auto; 
+}
+#logo2 {
+    float:left;
+    height: 40px;
+    width: auto;
+    margin:1px 0 0 50px;
+    background: rgba(255,255,255,0.3);
+    border: solid rgba(255,255,255,0.5) 2px;
+    border-radius: 50%;  
+}
+ul#menu2 {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 20px;
+    list-style: none;
+    }
+ul#menu2 li {
+    float: right;
+    background-color: black;
+    opacity: .8;
+    width: 60px;
+    height: 40px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+ul#menu2 li a {
+    text-decoration: none;
+    color:white;
+    display:block;
+	height: auto;
+	width: auto;
+	margin: auto;
+}
+ul#menu2 li a:hover {
+	background-color: #7FCCF7;
+	font-weight: bolder;
+	font-size: 22px;
+}
+ul#menu2 li ul li {
+    display: none;
+    font-family: 'Orbitron';
+}
+ul#menu2 li:hover ul li {
+    display:block;
+    width: 200px;
+    height: 80px;
+    
+}
+ul#menu2 li:hover ul li a {
+    margin-top: 25px;
+    height: 50px;
+	line-height: 2.5;
+}
+/* naslov */
+#header-inner {
+    width: 75%;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 0;
+    text-align: center;
+    
+}
+h1 {
+    font-size:8vw;
+    color:#7fccf7;
+    font-family: 'Audiowide';
+	text-align: center;    
+}
+/* strelica za vracanje na vrh */
+#back-top {
+	width: 80px;
+	height: 80px;
+	background:rgba(0,0,0,.4) url(images/top-arrow1024.png) center no-repeat;
+	border-radius: 20px;
+	position: fixed;
+	right: 2%;
+	bottom: 50px;
+	visibility: hidden;
+	cursor: pointer;
+}
+#back-top:hover {
+	background:rgba(0,0,0,.6) url(images/top-arrow1024blue.png) center no-repeat;
+}
+
+/* POSTOVI */
+/* pozadina postova */
+#posts {
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    background: rgba(0,0,0,.7);
+    color: white;
+    text-align: center;    
+}
+
+/* footer */
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: black;
+	width: 100%;
+	height: 30px;
+}
+#footer-full{
+	width: 91%;
+	margin: 0 auto;
+	text-align: center;
+}
+#about {
+	float:left;
+	color: white;
+	text-decoration: none;
+	font-family: 'Orbitron';
+	font-weight: bold;
+	line-height: 2;
+}
+#about:hover {
+	color:#7FCCF7;
+}
+#contact {
+	float: right;
+	color: white;
+	text-decoration: none;
+	font-family: 'Orbitron';
+	font-weight: bold;
+	line-height: 2;
+}
+#contact:hover {
+	color:#7FCCF7;
+}
+#credits {
+	margin: 0 auto;
+	color: white;
+	font-family: 'Orbitron';
+	font-weight: bold;
+	line-height: 2; 
+}
+#credits:hover {
+	color:#7FCCF7;;
+}
+
+/* MOBILNA VERZIJA */
+/* header crni-ljubicasti */
+#top2-mobile {
+    display: none; 
+	/*opacity: 0;*/
+	visibility: hidden;
+    position:fixed;
+    top:0;
+    left: 0;
+    background:black;
+    width:100%;
+    height: 50px;
+    margin:0 auto;    
+}
+#logo2-mobile {
+    float:left;
+    height: 40px;
+    width: auto;
+    margin:1px 0 0 20px;
+    background: rgba(255,255,255,0.3);
+    border: solid rgba(255,255,255,0.5) 2px;
+    border-radius: 50%;  
+}
+ul#menu2-mobile {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 0;
+    list-style: none; 
+}
+ul#menu2-mobile li {
+    float: right;
+    background-color: black;
+    opacity: .8;
+    width: 60px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+ul#menu2-mobile li a {
+    display:block;
+}
+ul#menu2-mobile li ul li {
+    display: none;
+    font-family: 'Orbitron';
+}
+#menu-icon2-mobile {
+    padding-top: 2px;
+    
+}
+
+
+
+
+/* VELICINE EKRANA */
+@media only screen and (max-width: 817px) {
+	ul#menu li a {
+		font-size: 16px;
+	}
+} /* ZBOG NAV U HEADERU GLAVNOM*/
+
+@media only screen and (max-width: 768px) {
+	/* HEADER */
+	/* crveni header */
+	#logo {
+		width: 60px;
+		height: auto;
+		margin: 15px 0 0 20px; 
+	}
+	#menu-icon{
+        display: block;
+        float:right;
+        background: url(images/menu_icon.png) center no-repeat;
+        width: 30px;
+        height: 30px;
+        margin: 10px 30px 10px 10px;
+	}
+	/* crni header */
+	#top2 {
+		display: none;
+	}
+	/* ljubicasti */
+	#top2-mobile {
+		display: block;
+	}
+	/*nemam pojma*/
+	ul#menu {
+        display:none;
+    }
+	ul#menu {
+        display: block; 
+    }
+    ul#menu li {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+    ul#menu li a {
+        font-size: 20px;
+    }
+	#menu li a {
+        padding-right: 10px;
+        font-size: 18px;
+    }
+	ul#menu2 li:hover ul li {
+    	display:none;
+	}
+	/* padajuci meni */
+	#mobile-menu {
+        display: none;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.7);
+        text-align: center;
+    }
+	/* Naslov */
+	#header-inner {
+		height: auto;
+	}
+	h1 {
+        font-size: 10vw;
+		margin-bottom: 15%;
+    }
+	/* strelica za vrh */
+	#back-top {
+		width: 60px;
+		height: 60px;
+		right: 20px;
+		background:rgba(0,0,0,.5) url(images/top-arrow768.png) center no-repeat;
+	}
+	/* POSTOVI */
+	/* postovi pozadina */
+	#posts {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+	/* HEADER */
+	/* crveni header */
+	#logo {
+		width: 50px;
+		height: auto;
+		margin: 10px 0 0 10px
+	}
+	#menu-icon {
+		margin-right: 10px;
+	}
+	/* crni header */
+	#top2 {
+		display: none;
+	}
+	/* ljubicasti */
+	#top2-mobile {
+		display: block;
+	}
+	#logo2-mobile {
+		margin: 2px 0 0 10px
+	}
+	ul#menu2-mobile li{
+		width: 55px;		
+	}
+	/* padajuci meni */
+	 #mobile-menu {
+        display: none;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.9);
+        text-align: center;
+    }
+	/* nemam pojma */
+	 ul#menu {
+        display: block; 
+    }
+    ul#menu li {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+    ul#menu li a {
+        font-size: 20px;
+    }
+	/* strelica za top */
+	#back-top {
+		width: 50px;
+		height: 50px;
+		right: 15px;
+	}
+	/* Naslov */
+	#header-inner {
+		width: 100%;
+		height: auto;
+	}
+	h1 {
+		font-size: 11vw;
+		margin-bottom: 50px;
+	}
+	/* POSTOVI */
+	/* postovi pozadina */
+	#posts {
+		width: 90%;
+	}
+	/* FOOTER */
+	footer {
+		height: 25px;
+	}
+	#about {
+		line-height: 1.7;
+	}
+	#contact {
+		line-height: 1.7;
+	}
+	#credits {
+		line-height: 1.7;
+	}
+
+}
+
+@media only screen and (max-width: 375px) {
+	/* crni header */
+	#top2 {
+		display: none;
+	}
+	/* naslov */
+	h1 {
+		font-size: 11vw;
+	}
+	/* strelica za vrh */
+	#back-top {
+		right: 18px;
+		bottom: 50px;
+	}
+	/* POSTOVI */
+	/* postovi pozadina */
+	#posts{
+		width: 95%
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	/* logo na glavnom headeru */
+	#logo {
+		width: 42px;
+		height: auto;
+	}
+	/* crni header */
+	#top2 {
+		display: none;
+	}
+	/* naslov */
+	h1 {
+		font-size: 11vw;
+	}
+	/* ljubicasti header */
+	#logo2-mobile {
+		width: 35px;
+		height: auto;
+		margin: 5px 0 0 5px;
+	}
+	ul#menu2-mobile li{
+		width: 55px;		
+	}
+	/* POSTS */
+	/* posts pozadina */
+	#posts {
+		width: 100%;
+		background-color: darkgrey;
+	}
+	/* strelica za vrh */
+	#back-top {
+		bottom: 40px;
+	}
+	/* footer */
+	#about  {
+		font-size: 15px;
+	}
+	#contact {
+		font-size: 15px;
+	}
+	#credits {
+		font-size: 15px;
+	}
+}
