@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="Tech, SoFtY, Gaming, Blog, PC, News, Review, Games, GPU, CPU, RAM, nVidia, Intel, AMD, Gigabyte, MSI, Asus, Acer, Razer, Logitech, Roccat, R.A.T., Samsung, AsTech">
+        <title>Softy Tech</title>
+		<meta name="description" content="This website is for Gaming and PC enthusiasts bringing you fresh news, reviews and etc.">
+		<meta name="author" content="Ivan Kojic, Andela Vanesa Tuta">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Audiowide|Orbitron" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="JavaScript/jQuery/jQuery.js"></script>
+    </head>
+	
+	
+    <body>
+		<div id="top2">
+                    <a href="index.html"><img src="images/logo.png" id="logo2"></a>
+                    <nav>
+                        <ul id="menu2">
+                            <li><a href="http://instagram.com/softytech101"><img src="images/instagram.png"></a></li>
+                            <li><a href="http://twitter.com/softytech101"><img src="images/twitter.png"></a></li>
+                            <li><a href="http://facebook.com/softytech101"><img src="images/facebook.png"></a></li>
+                            <li><a href="#" id="menu-icon2"><img src="images/menu_icon.png"></a>
+                                <ul>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Reviews</a></li>
+                                    <li><a href="#">Commentary</a></li>
+                                    <li><a href="#">Trench Tales</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html" class="current"><img src="images/home.png"></a></li>
+                        </ul>
+                    </nav>
+                    </div>
+		<div id="top2-mobile">
+                    <a href="index.html"><img src="images/logo.png" id="logo2-mobile"></a>
+                    <nav>
+                        <ul id="menu2-mobile">
+                            <li><a href="http://instagram.com/softytech101"><img src="images/instagram.png"></a></li>
+                            <li><a href="http://twitter.com/softytech101"><img src="images/twitter.png"></a></li>
+                            <li><a href="http://facebook.com/softytech101"><img src="images/facebook.png"></a></li>
+                            <li><a href="#" id="menu-icon2-mobile"><img src="images/menu_icon.png"></a>
+                                <ul>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Reviews</a></li>
+                                    <li><a href="#">Commentary</a></li>
+                                    <li><a href="#">Trench Tales</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html" class="current"><img src="images/home.png"></a></li>
+                        </ul>
+                    </nav>
+                    </div>
+        <div id="wrapper">
+            <header>
+                <div id="top">
+                    <a href="index.html"><img src="images/logo.png" id="logo"></a>
+                    <nav>
+                        <a href="#" id="menu-icon"></a>
+                        <div id="mobile-menu">
+                            <ul id="menu">
+                                <li><a href="index.html" class="current">Home</a></li>
+                                <li><a href="http://www.24sata.hr">News</a></li>
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Commentary</a></li>
+                                <li><a href="#">Trench Tales</a></li>
+							</ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div id="header-inner">
+                    <h1>Softy Tech</h1>
+                </div>
+            <div id="posts">
+                <p>Blablabalblalbalbal</p>
+            </div>
+			<div id="back-top"><a href="#"></a></div>
+			<footer>
+				<div id="footer-full">
+					<a href="#" id="about">About</a>
+					<a href="#" id="contact">Contact</a>
+                    <a href="C:\Users\andel\Desktop\Project_MPDCorp/index.html" id="credits">&copyMPDcorp.</a>
+					
+				</div>
+			</footer>
+        </div>
+    </body>
+
+
+</html>
