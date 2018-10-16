@@ -1,0 +1,31 @@
+var $, window, document;
+$(function () {
+    'use strict';
+    $(window).scroll(function () {
+        var scrollval = $(window).scrollTop();
+        if (scrollval >= 60) {
+            $("#top").fadeOut('slow');
+            $("#top2").fadeIn('slow');
+        }
+        if (scrollval <= 10) {
+            $("#top").fadeIn('slow');
+            $("#top2").fadeOut('slow');
+        }
+    });
+});
+
+
+
+
+ZA MICANJE(NIJE RADILO):
+ $('#mobile-menu').outside('click', function () {
+        $('#mobile-menu').hide();
+    });
+	
+	
+	
+
+ZA VELICINU EKRANA:	
+	if($(window).width() >= 1024){
+  // do your stuff
+}
