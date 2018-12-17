@@ -1,0 +1,78 @@
+RAČUNALNE MREŽE
+2.KOLOKVIJ, teorija
+
+1.STATIČKO RUTIRANJE(PREDNOSTI I NEDOSTACI)
++ laka konfiguracija, sigurnije rute koje nisu zahtjevne za router
+- unos velikog broja mreža logistički zahtjevno,rute nisu otporne na promjene na mreži te su teške za održavanje
+
+2.DINAMIČKO RUTIRANJE(PREDNOSTI I NEDOSACI)
++ automatsko reagiranje na promjene, manja vjerovatnost ljudske pogreške, praktičnije za održavanje
+-ovisnost o protokolu, dodatno opterećivanje routera, router sam odabire put koji nije uvijek optimalan
+
+3.PROTOKOLI DINAMIČKOG RUTIRANJA
+-RIP-> usmjerava pakete prema broju skokova (odnosno udaljenosti između mreža)
+-OSPF-> određuje put slanja na temelju najveće propusnosti; mreža se može dijeliti na više zona
+
+4.ARP (ČEMU SLUŽI, KOJEG JE SLOJA?)
+ARP je protokol mrežnog sloja koji dohvaća MAC adrese preko IP adresa.  (broadcasta) 
+#Prevodi virtualne u fizičke(hardverske) adrese korištenjem tablice, izračunavanjem ili izmjenom poruka.
+
+5.ICMP(ŠTO JE, ČEMU SLUŽI?)
+ICMP  je protokol mrežnog sloja koji služi kontroli prijenosa podataka (šalje poruke ovisno o uspješnosti slanja paketa).
+
+6.PRIVATNE IP ADRESE ( ŠTO SU I ČEMU SLUŽE?SMIJU LI SE KORISTITI NA INTERNETU?)
+To su adrese rezervirane za privatnu (lokalnu upotrebu) bez službenog ovlaštenja. Ne smiju se koristiti na internetu.
+
+7.ŠTO JE ROUTING TABLICA I ČEMU SLUŽI?
+Routing tablicu router koristi da odredi na koje će sućelje poslati paket. Povezuje IP adrese s portovima.
+
+8.ŠTO JE ARP TABLICA I ČEMU SLUŽI?
+To je tablica u kojoj su podaci o IP adresama i njima pripadajućim MAC adresama. 
+#(Služi za spremanje parova MAC i IP adresa.)
+
+9.HOĆE LI ROUTER PROSLJEĐIVATI ARP PAKETE NA SVOJA PREOSTALA SUČELJA?
+
+10.KOJA JE DESTINATION MAC ADRESA U ARP REQUEST PAKETU?
+Od krajnjeg uređaja u lokalnoj mreži.
+
+11.KOJA JE DESTINATION MAC ADRESA U ARP REPLY PAKETU?
+MAC adresa pošiljatelja requesta u lokalnoj mreži.
+
+12.Što je default gateway? Čemu služi? Ako ga nema?
+To je router koji služi za prosljeđivanje paketa van lokalne mreže. Ako ga nema, podaci ne mogu biti poslani van lokalne mreže.
+13.KOLIKO JE RASPOLOŽIVIH IP ADRESA U IP ADRESNOJ  MREŽI SA SUBNET MASKOM 255.255.252.0? -> 1022
+
+14.ŠTO JE DOMENA RAZAŠILJANJA? KOJI MREŽNI UREĐAJ JU PREKIDA?
+To je skup (raspon) IP adresa koje mogu međusobno komunicirati. Prekida ju switch, ukoliko ima postavljene VLAN-ove.
+
+15.ŠTO JE TTL?
+To je broj skokova koje router računa u svrhu sprječavanja beskonačne petlje slanja paketa.
+
+16.ŠTO JE VLAN I ČEMU SLUŽI?
+VLAN je virtualna mreža pomoću koje određujemo domenu razašiljanja (može se  dinamički mijenjati i nije ovisna o fizičkoj topologiji mreže)
+
+17.ZAŠTO KAŽEMO DA JE ROUTER UREĐAJ 3. SLOJA?
+Zato što koristi protokole mrežnog sloja(IP,ICMP,ARP)
+
+18.NAVEDITE SLOJEVE TCP/IP PROTOKOLA I JEDNOM REČENICOM OBJASNITE ULOGU SVAKOG OD NJIH.
+1.FIZIČKI SLOJ ->prenosi bitove
+2.SLOJ PODATKOVNE POVEZNICE ->služi za komunikaciju uređaja na istoj mreži
+3.MREŽNI SLOJ -> brine se da podaci stignu na ispravnu IP adresu
+4.TRANSPORTNI SLOJ -> uvodi adresiranje preko portova za pojedine aplikacije
+5.APLIKACIJSKI SLOJ -> prezentacija podataka krajnjem korisniku, enkripcija, dekripcija i održavanje sesija
+
+19.ROUTER?
+Router je uređaj 3. sloja koji služi za spajanje više odvojenih lokalnih mreža i tehnologija
+
+20.KOJI STANDARD SLOJA PODATKOVNE POVEZNICE SMO DO SAD OBRAĐIVALI? KOJEM SLOJU ON PRUŽA USLUGU?
+Ethernet. Mrežnom sloju.
+
+21.Što je ISP? 
+Internet Service Provider je tvrtka koja svojim korisnicima pruža uslugu pristupa internetu.
+
+22.ZAŠTO NAM TREBAJU FGE I CGE?(bakar i optika)
+Lokalno koristimo bakar (CGE) jer je jeftin te ima dobru provodljivost na male udaljenosti. Gradove povezujemo s optikom (FGE) zbog puno 
+veće brzine (no, skupa je i kabel se ne smije savijati).
+
+23. ROOT?
+Onaj kojemu dodijelimo ulogu glavnog switcha; svi portovi su mu forward.
